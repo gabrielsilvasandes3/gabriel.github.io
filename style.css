@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url(fontes/coolvetica_condensed_rg.otf) format(opentype);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:500%;
+    background-color:  #D7D5B3;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin-right: 6%;
+    margin-left: 6%;
+    background-color: white;
+    border-radius: 0px 0px 0px 0px;
+    padding:10px;
+    box-shadow: 5px 5px 15px 5px rgba(151, 144, 128, 0.631);
+}
+
+header {
+    margin: 0%;
+    padding: 2%;
+    background-image: linear-gradient(to top,#1A5C38, #207144, #37C475);
+    color: white;
+    text-align: center;
+
+}
+
+header > h1 {
+    font-family: 'Coolvetica';
+    padding: 3%;
+    margin: 3%;
+    font-weight: 300;
+    font-size: 300%;
+    top: 0%;
+    
+}
+
+nav {
+    padding: 3px;
+    margin: 0px;
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 1%;
+    margin: 0%;
+}
+
+section#VIDEO {
+   text-align: center;
+   background-color: darkgreen;
+   padding: 5%;
+   margin: 0px;
+   margin-top: 0%;
+   margin-left: 0%;
+}
+
+section#FOTO2 {
+    text-align: center;
+}
+
+section#FOTO1 {
+    text-align: center;
+}
+
+section#Aprimeiraversão > h2 {
+    background-image: linear-gradient(to right, #C8ECD8,#DFF4E8, #C6EBD7 );
+    color: darkgreen;
+    font-family: 'Idroid';
+    font-weight: 200;
+}
+
+section#HistóriadoMascotedoAndroid > h1 {
+    font-family: 'Idroid';
+    color: darkgreen;
+    font-weight: 200;
+}
+
+section#Surgeumnovomascote > h2 {
+    background-image: linear-gradient(to right, #C8ECD8,#DFF4E8, #C6EBD7 );
+    color: darkgreen;
+    font-family: 'Idroid';
+    font-weight: 200;
+}
+
+footer#ultima {
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(151, 144, 128, 0.631);
+    border-radius: 20px;
+    margin-right: 6%;
+    margin-left: 6%;
+    padding: 15%;
+    border-radius: 0px 0px 50px 50px;
+    background-color:rgb(194, 220, 201);
+}
+
+.bio {
+    border-radius: 20px;
+    margin-right: 6%;
+    margin-left: 6%;
+    padding: 5%;
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgb(194, 220, 201);
+    color: black;
+}
+
+.autor {
+    background-color:darkgreen;
+    color: black;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+nav > a:hover{
+    color: black;
+    background-color: lightgray;
+}
